@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 20px 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .container h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #4CAF50;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            font-size: 24px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style: disc;
+            padding-left: 20px;
+            font-size: 16px;
+        }
+        .skills li, .tools li {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+        .degree-title {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .date {
+            color: #999;
+            font-size: 14px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rabia Manzoor Ameen</h1>
+        <div class="contact-info">
+            <div>
+                <strong>Email:</strong> <a href="mailto:rabiamanzoor126@gmail.com">rabiamanzoor126@gmail.com</a>
+            </div>
+            <div>
+                <strong>GitHub:</strong> <a href="https://github.com/RabiaManzoor" target="_blank">github.com/RabiaManzoor</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="section">
+            <h2>Profile</h2>
+            <p>
+                I am a dedicated and results-oriented professional with a strong passion for solving problems and improving processes. I bring a combination of technical skills and creative thinking to tackle challenges and deliver impactful solutions.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Tools and Technologies</h2>
+            <ul class="tools">
+                <li>Jupyter Notebook</li>
+                <li>Power BI</li>
+                <li>Git/GitHub</li>
+                <li>SQL Server Management Studio</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>Decision Making</li>
+                <li>Multitasking</li>
+                <li>Communication</li>
+                <li>Presentation Skills</li>
+                <li>Teamwork</li>
+                <li>Negotiation Skills</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="degree">
+                <div class="degree-title">Data Science</div>
+                <div class="date">2022 - Present</div>
+                <p>Punjab University Lahore, Pakistan</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Courses</h2>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Introduction to Data Science</li>
+                <li>Data Visualization</li>
+                <li>Programming (Python, SQL)</li>
+                <li>Database Management</li>
+                <li>Statistics and Probability</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>References</h2>
+            <ul>
+                <li>Muhammad Mustaq from Contour Lahore</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
